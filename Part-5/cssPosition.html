@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        /* * {
+            margin: 0;
+            padding: 0;
+        } */
+
+        li {
+            /* display: block; */
+            list-style: square;
+        }
+
+        header {
+            background-color: rgb(224, 34, 34);
+            color: rgb(0, 0, 0);
+            height: 70px;
+            position: sticky;
+            top: 0px;
+            z-index: 1;
+        }
+
+        p {
+            text-align: center;
+            border: 2px solid black;
+            height: 1440px;
+        }
+
+        .container {
+            background-color: aqua;
+            height: 50vh;
+            width: 50vw;
+            margin: auto;
+            padding: 2px;
+            /* z-index: 2; */
+
+        }
+
+        .box {
+            background-color: yellow;
+            height: 200px;
+            width: 200px;
+            /* position: relative; */
+            /* position:absolute; */
+            /* position: fixed; */
+            position: sticky;
+            /* top: 10px; */
+            bottom: 15px;
+            left: 20px;
+            /* right: 30px; */
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>Contact </li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et ab reprehenderit neque, mollitia voluptatum,
+            unde velit quos alias consequatur quam nulla incidunt perspiciatis possimus est impedit assumenda dolorem
+            quis accusamus.</p>
+        <div class="box">I am a box , hello</div>
+    </div>
+</body>
+
+</html>

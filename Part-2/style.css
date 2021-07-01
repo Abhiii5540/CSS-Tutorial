@@ -1,0 +1,11 @@
+*{margin: 0;
+padding: 0;
+}
+.red{
+background: rgb(255, 1, 192);
+color: aqua;
+}
+.green{
+background: green;
+color: white;
+}
